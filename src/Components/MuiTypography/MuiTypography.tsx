@@ -18,3 +18,10 @@ export const MuiTypography = () => {
     </div>
   )
 }
+
+/*
+props variant and component
+
+variant: podemos cambiar la fuente y el tamaño mediante la prop variant
+component: podemos cambiar la semantica del elementom mediante la prop component
+ */
