@@ -27,6 +27,10 @@ export const MuiButton = () => {
 
       <Stack spacing={2} direction="row">
         <Button variant="contained" startIcon={<SendIcon />}>Send</Button>
+        
+        <IconButton aria-label="Send" size="small" color="success">
+          <SendIcon/>
+        </IconButton>
       </Stack>
     </Stack>
   )
