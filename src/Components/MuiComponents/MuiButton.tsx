@@ -32,6 +32,10 @@ export const MuiButton = () => {
           <SendIcon/>
         </IconButton>
       </Stack>
+
+      <Stack direction="row">
+
+      </Stack>
     </Stack>
   )
 }
