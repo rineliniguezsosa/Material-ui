@@ -6,6 +6,7 @@ import FormatUnderlinedIcon from '@mui/icons-material/FormatUnderlined'
 import { useState } from 'react';
 
 export const MuiButton = () => {
+  const [format, setFormat] = useState<string[]>([])
   return (
     <Stack spacing={4}>
       <Stack spacing={2} direction="row">
