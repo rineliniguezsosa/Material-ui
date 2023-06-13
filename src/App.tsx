@@ -1,9 +1,9 @@
-import { MuiTypography } from "./Components"
+import { MuiButton } from "./Components"
 
 function App() {
   return (
     <>
-      <MuiTypography/>
+      <MuiButton/>
     </>
   )
 }
