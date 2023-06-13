@@ -34,7 +34,9 @@ export const MuiButton = () => {
       </Stack>
 
       <Stack direction="row">
-
+        <Button>One</Button>
+        <Button>Two</Button>
+        <Button>Three</Button>
       </Stack>
     </Stack>
   )
