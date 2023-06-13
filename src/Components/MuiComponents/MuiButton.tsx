@@ -1,4 +1,4 @@
-import { Stack,Button,IconButton } from '@mui/material'
+import { Stack,Button,IconButton,ButtonGroup } from '@mui/material'
 import SendIcon  from '@mui/icons-material/Send'
 
 export const MuiButton = () => {
@@ -27,7 +27,7 @@ export const MuiButton = () => {
 
       <Stack spacing={2} direction="row">
         <Button variant="contained" startIcon={<SendIcon />}>Send</Button>
-        
+
         <IconButton aria-label="Send" size="small" color="success">
           <SendIcon/>
         </IconButton>
