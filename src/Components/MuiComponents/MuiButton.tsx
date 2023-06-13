@@ -34,9 +34,11 @@ export const MuiButton = () => {
       </Stack>
 
       <Stack direction="row">
-        <Button>One</Button>
-        <Button>Two</Button>
-        <Button>Three</Button>
+        <ButtonGroup variant="outlined" color="warning" size="medium" orientation="vertical" aria-label="my buuton group">
+          <Button>One</Button>
+          <Button>Two</Button>
+          <Button>Three</Button>
+        </ButtonGroup>
       </Stack>
     </Stack>
   )
