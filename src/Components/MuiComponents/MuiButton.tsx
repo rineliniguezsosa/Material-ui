@@ -3,6 +3,7 @@ import SendIcon  from '@mui/icons-material/Send'
 import FormatBoldIcon from '@mui/icons-material/FormatBold'
 import FormatItalicIcon from '@mui/icons-material/FormatItalic'
 import FormatUnderlinedIcon from '@mui/icons-material/FormatUnderlined'
+import { useState } from 'react';
 
 export const MuiButton = () => {
   return (
