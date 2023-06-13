@@ -1,6 +1,7 @@
 import { Stack,Button,IconButton,ButtonGroup,ToggleButtonGroup,ToggleButton } from '@mui/material'
 import SendIcon  from '@mui/icons-material/Send'
 import FormatBoldIcon from '@mui/icons-material/FormatBold'
+import FormatItalicIcon from '@mui/icons-material/FormatItalic'
 
 export const MuiButton = () => {
   return (
