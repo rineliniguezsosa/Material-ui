@@ -48,6 +48,7 @@ export const MuiButton = () => {
           <ToggleButtonGroup aria-label="text format">
             <ToggleButton value="bold" aria-label="bolder"><FormatBoldIcon/></ToggleButton>
             <ToggleButton value="italic" aria-label="italic"><FormatItalicIcon/></ToggleButton>
+            <ToggleButton value="underlined" aria-label="underlined"><FormatUnderlinedIcon/></ToggleButton>
           </ToggleButtonGroup>
       </Stack>
     </Stack>
