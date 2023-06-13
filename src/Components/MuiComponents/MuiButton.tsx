@@ -2,10 +2,10 @@ import { Stack,Button } from '@mui/material'
 
 export const MuiButton = () => {
   return (
-    <div>
+    <Stack>
       <Button variant="text">Text</Button>
       <Button variant="contained">Contained</Button>
       <Button variant="outlined">Outlined</Button>
-    </div>
+    </Stack>
   )
 }
