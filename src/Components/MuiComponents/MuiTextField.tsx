@@ -2,6 +2,7 @@ import { Stack,TextField,InputAdornment } from "@mui/material"
 import { useState } from "react"
 
 export const MuiTextField = () => {
+    const [value, setValue] = useState('')  
   return (
     <Stack spacing={4}>
         <Stack direction="row" spacing={2}>
