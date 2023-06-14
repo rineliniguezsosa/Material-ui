@@ -4,7 +4,7 @@ import { useState,ChangeEvent } from 'react';
 
 export const MuiSelect = () => {
     const [ciudad, setCiudad] = useState('')
-
+    console.log(ciudad)
     const handlechange = (event: ChangeEvent<HTMLInputElement>) =>{
         setCiudad(event.target.value as string)
     }
