@@ -4,7 +4,9 @@ import { Box,FormControl,FormLabel,Radio,RadioGroup,FormControlLabel } from "@mu
 export const MuiRadioButton = () => {
   return (
     <Box>
-      
+      <FormControl>
+        
+      </FormControl>
     </Box>
   )
 }
