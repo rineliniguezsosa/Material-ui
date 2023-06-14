@@ -16,7 +16,14 @@ export const MuiTextField = () => {
         </Stack>
 
         <Stack direction="row" spacing={2}>
-            <TextField label="Form input" required/>
+            <TextField 
+                label="Form input" 
+                value={value} 
+                error={!value} 
+                helperText={!value ? 'Required':'No compartas tu password'} 
+                onChange={(event)=> setValue(event.target.value)} 
+                required
+            />
             <TextField
              label="password"
              type="password"
