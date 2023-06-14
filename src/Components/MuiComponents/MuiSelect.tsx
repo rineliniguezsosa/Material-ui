@@ -6,7 +6,7 @@ export const MuiSelect = () => {
     const [ciudad, setCiudad] = useState('')
 
     const handlechange = (event: ChangeEvent<HTMLInputElement>) =>{
-
+        setCiudad(event.target.value as string)
     }
   return (
     <Box width="200px">
