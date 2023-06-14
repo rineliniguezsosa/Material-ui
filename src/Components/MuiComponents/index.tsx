@@ -2,3 +2,4 @@
 export * from './MuiTypography'
 export * from './MuiButton'
 export * from './MuiTextField'
+export * from './MuiSelect'
