@@ -26,7 +26,12 @@ export const MuiTextField = () => {
         </Stack>
 
         <Stack direction="row" spacing={2}>
-
+            <TextField 
+             label="Cantidad"
+             InputProps={{
+                startAdornment: <InputAdornment position="start">$</InputAdornment>,
+             }}
+            />
         </Stack>
     </Stack>
   )
