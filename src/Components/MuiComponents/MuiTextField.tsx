@@ -16,6 +16,12 @@ export const MuiTextField = () => {
 
         <Stack direction="row" spacing={2}>
             <TextField label="Form input" required/>
+            <TextField
+             label="password"
+             type="password"
+             helperText="No compartas tu password"
+             disabled
+            />
         </Stack>
     </Stack>
   )
