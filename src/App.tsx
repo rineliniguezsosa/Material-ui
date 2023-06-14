@@ -1,9 +1,9 @@
-import { MuiTextField } from "./Components"
+import { MuiSelect } from "./Components"
 
 function App() {
   return (
     <>
-      <MuiTextField/>
+      <MuiSelect/>
     </>
   )
 }
