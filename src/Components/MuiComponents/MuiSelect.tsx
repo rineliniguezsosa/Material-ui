@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 
 export const MuiSelect = () => {
+    const [ciudad, setCiudad] = useState('')
   return (
     <Box width="200px">
         <TextField label="Selecciona tu país" select>
