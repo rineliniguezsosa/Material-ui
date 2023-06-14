@@ -15,7 +15,7 @@ export const MuiTextField = () => {
         </Stack>
 
         <Stack direction="row" spacing={2}>
-
+            <TextField label="Form input" required/>
         </Stack>
     </Stack>
   )
