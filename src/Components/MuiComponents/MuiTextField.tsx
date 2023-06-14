@@ -22,6 +22,7 @@ export const MuiTextField = () => {
              helperText="No compartas tu password"
              disabled
             />
+            <TextField label="Read only" InputProps={{readOnly:true}}/>
         </Stack>
     </Stack>
   )
