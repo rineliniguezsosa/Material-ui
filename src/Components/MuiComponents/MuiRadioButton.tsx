@@ -3,6 +3,8 @@ import { Box,FormControl,FormLabel,Radio,RadioGroup,FormControlLabel } from "@mu
 
 export const MuiRadioButton = () => {
   return (
-    <div>MuiRadioButton</div>
+    <Box>
+      
+    </Box>
   )
 }
