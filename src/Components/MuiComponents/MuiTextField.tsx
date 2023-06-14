@@ -11,7 +11,7 @@ export const MuiTextField = () => {
         </Stack>
 
         <Stack direction="row" spacing={2}>
-
+            <TextField label="Secondary Name" color="secondary" size="small"/>
         </Stack>
     </Stack>
   )
