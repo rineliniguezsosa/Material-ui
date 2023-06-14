@@ -5,8 +5,8 @@ import { useState,ChangeEvent } from 'react';
 export const MuiSelect = () => {
     const [ciudad, setCiudad] = useState('')
 
-    const handlechange = () =>{
-        
+    const handlechange = (event: ChangeEvent<HTMLInputElement>) =>{
+
     }
   return (
     <Box width="200px">
