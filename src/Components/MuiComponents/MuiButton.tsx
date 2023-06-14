@@ -9,7 +9,7 @@ export const MuiButton = () => {
   const [format, setFormat] = useState<string[]>([])
 
   const handleformatchange = (event:MouseEvent<HTMLElement>,Formats:string) =>{
-
+    setFormat(Formats)
   }
   return (
     <Stack spacing={4}>
