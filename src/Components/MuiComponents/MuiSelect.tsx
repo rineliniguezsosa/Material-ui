@@ -4,6 +4,10 @@ import { useState,ChangeEvent } from 'react';
 
 export const MuiSelect = () => {
     const [ciudad, setCiudad] = useState('')
+
+    const handlechange = () =>{
+        
+    }
   return (
     <Box width="200px">
         <TextField label="Selecciona tu país" value={ciudad} onChange={handlechange} select>
