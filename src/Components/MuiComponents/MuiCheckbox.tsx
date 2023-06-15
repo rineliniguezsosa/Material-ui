@@ -15,6 +15,7 @@ export const MuiCheckbox = () => {
 
         <Box>
             <FormControl>
+                <FormLabel>Habilidades</FormLabel>
                 <FormGroup>
                 </FormGroup>
             </FormControl>
