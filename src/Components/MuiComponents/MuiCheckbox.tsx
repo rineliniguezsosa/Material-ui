@@ -3,6 +3,10 @@ import { useState } from 'react';
 
 export const MuiCheckbox = () => {
     const [conditions, setConditions] = useState(false)
+
+    const handlechange = () =>{
+
+    }
   return (
     <Box>
         <Box>
