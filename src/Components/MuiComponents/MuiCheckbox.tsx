@@ -14,9 +14,10 @@ export const MuiCheckbox = () => {
         </Box>
 
         <Box>
-            <FormGroup>
-
-            </FormGroup>
+            <FormControl>
+                <FormGroup>
+                </FormGroup>
+            </FormControl>
         </Box>
     </Box>
   )
