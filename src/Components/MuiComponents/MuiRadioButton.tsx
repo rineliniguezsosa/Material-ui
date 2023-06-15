@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 
 export const MuiRadioButton = () => {
+  const [value, setValue] = useState('')
   return (
     <Box>
       <FormControl>
