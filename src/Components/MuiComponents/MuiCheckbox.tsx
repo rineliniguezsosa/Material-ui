@@ -3,7 +3,7 @@ import { useState,ChangeEvent } from 'react';
 
 export const MuiCheckbox = () => {
     const [conditions, setConditions] = useState(false)
-
+    console.log(conditions)
     const handlechange = (event:ChangeEvent<HTMLInputElement>) =>{
         setConditions(event.target.checked)
     }
