@@ -6,7 +6,7 @@ export const MuiRadioButton = () => {
   const [value, setValue] = useState('')
 
   const handlechange = (event:ChangeEvent<HTMLInputElement>) =>{
-
+    setValue(event.target.value)
   }
   return (
     <Box>
