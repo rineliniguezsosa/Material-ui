@@ -5,7 +5,7 @@ export const MuiCheckbox = () => {
     const [conditions, setConditions] = useState(false)
 
     const handlechange = (event:ChangeEvent<HTMLInputElement>) =>{
-
+        setConditions(event.target.checked)
     }
   return (
     <Box>
