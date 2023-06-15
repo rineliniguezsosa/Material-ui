@@ -12,6 +12,10 @@ export const MuiCheckbox = () => {
         <Box>
             <FormControlLabel control={<Checkbox checked={conditions} onChange={handlechange}/>} label="Acepta las condicones y terminos de privacidad" />
         </Box>
+
+        <Box>
+            
+        </Box>
     </Box>
   )
 }
