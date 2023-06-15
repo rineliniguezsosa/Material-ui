@@ -1,9 +1,9 @@
-import { MuiSelect } from "./Components"
+import { MuiRadioButton } from "./Components"
 
 function App() {
   return (
     <>
-      <MuiSelect/>
+      <MuiRadioButton/>
     </>
   )
 }
