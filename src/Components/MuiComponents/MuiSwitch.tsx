@@ -1,4 +1,5 @@
 import { Box,FormControlLabel,Switch } from "@mui/material"
+import { useState,ChangeEvent } from 'react';
 
 
 export const MuiSwitch = () => {
