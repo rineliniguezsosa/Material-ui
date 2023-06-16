@@ -5,7 +5,7 @@ export const MuiRating = () => {
     const [value, setValue] = useState<number | null>(null)
     
     const handlechange = (event:ChangeEvent<{}>,newvalue:number | null)=>{
-        
+        setValue(newvalue)
     }
   return (
     <Stack>
