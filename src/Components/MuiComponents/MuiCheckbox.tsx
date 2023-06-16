@@ -6,13 +6,13 @@ export const MuiCheckbox = () => {
     console.log(conditions)
 
     const [habilidades, setHabilidades] = useState<string[]>([])
-
+    console.log(habilidades)
     const handlechange = (event:ChangeEvent<HTMLInputElement>) =>{
         setConditions(event.target.checked)
     }
 
     const handleskillchange = (event:ChangeEvent<HTMLInputElement>) =>{
-
+        setHabilidades([...habilidades,event.target.value])
     }
   return (
     <Box>
@@ -24,10 +24,10 @@ export const MuiCheckbox = () => {
             <FormControl>
                 <FormLabel>Habilidades</FormLabel>
                 <FormGroup>
-                    <FormControlLabel label="HTML" control={<Checkbox checked={habilidades.includes('HTML')} value="HTML"/>}/>
-                    <FormControlLabel label="Typescript" control={<Checkbox checked={habilidades.includes('Typescript')} onChange={handleskillchange} value="Typescript"/>}/>
-                    <FormControlLabel label="Javascript" control={<Checkbox checked={habilidades.includes('Javascript')} onChange={handleskillchange} value="Javascript"/>}/>
-                    <FormControlLabel label="React" control={<Checkbox checked={habilidades.includes('React')} onChange={handleskillchange} value="React"/>}/>
+                    <FormControlLabel value="HTML" label="HTML" control={<Checkbox checked={habilidades.includes('HTML')}/>}/>
+                    <FormControlLabel value="Typescript" label="Typescript" control={<Checkbox checked={habilidades.includes('Typescript')} onChange={handleskillchange}/>}/>
+                    <FormControlLabel value="Javascript" label="Javascript" control={<Checkbox checked={habilidades.includes('Javascript')} onChange={handleskillchange}/>}/>
+                    <FormControlLabel value="React" label="React" control={<Checkbox checked={habilidades.includes('React')} onChange={handleskillchange}/>}/>
                 </FormGroup>
             </FormControl>
         </Box>
