@@ -6,7 +6,7 @@ export const MuiSwitch = () => {
     const [checked, setChecked] = useState(false)
   return (
     <Box>
-        <FormControlLabel label="Dark mode" control={<Switch/>}/>
+        <FormControlLabel label="Dark mode" control={<Switch checked={checked} onChange={handlechange}/>}/>
     </Box>
   )
 }
