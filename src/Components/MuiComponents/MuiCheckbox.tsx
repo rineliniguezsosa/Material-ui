@@ -24,10 +24,10 @@ export const MuiCheckbox = () => {
             <FormControl>
                 <FormLabel>Habilidades</FormLabel>
                 <FormGroup>
-                    <FormControlLabel value="HTML" label="HTML" control={<Checkbox value="HTML"/>}/>
-                    <FormControlLabel value="Typescript" label="Typescript" control={<Checkbox onChange={handleskillchange} value="Typescript"/>}/>
-                    <FormControlLabel value="Javascript" label="Javascript" control={<Checkbox onChange={handleskillchange} value="Javascript"/>}/>
-                    <FormControlLabel value="React" label="React" control={<Checkbox onChange={handleskillchange} value="React"/>}/>
+                    <FormControlLabel value="HTML" label="HTML" control={<Checkbox checked={habilidades.includes('HTML')} value="HTML"/>}/>
+                    <FormControlLabel value="Typescript" label="Typescript" control={<Checkbox checked={habilidades.includes('Typescript')} onChange={handleskillchange} value="Typescript"/>}/>
+                    <FormControlLabel value="Javascript" label="Javascript" control={<Checkbox checked={habilidades.includes('Javascript')} onChange={handleskillchange} value="Javascript"/>}/>
+                    <FormControlLabel value="React" label="React" control={<Checkbox checked={habilidades.includes('React')} onChange={handleskillchange} value="React"/>}/>
                 </FormGroup>
             </FormControl>
         </Box>
