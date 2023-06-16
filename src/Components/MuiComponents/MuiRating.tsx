@@ -3,6 +3,8 @@ import { useState,ChangeEvent } from 'react';
 
 export const MuiRating = () => {
   return (
-    <div>MuiRating</div>
+    <Stack>
+        
+    </Stack>
   )
 }
