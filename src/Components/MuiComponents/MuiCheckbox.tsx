@@ -11,7 +11,7 @@ export const MuiCheckbox = () => {
         setConditions(event.target.checked)
     }
 
-    const handleskillchange = () =>{
+    const handleskillchange = (event:ChangeEvent<HTMLInputElement>) =>{
 
     }
   return (
