@@ -1,9 +1,9 @@
-import { MuiSwitch } from "./Components"
+import { MuiRating } from "./Components"
 
 function App() {
   return (
     <>
-      <MuiSwitch/>
+      <MuiRating/>
     </>
   )
 }
