@@ -1,9 +1,9 @@
-import { MuiCheckbox } from "./Components"
+import { MuiSwitch } from "./Components"
 
 function App() {
   return (
     <>
-      <MuiCheckbox/>
+      <MuiSwitch/>
     </>
   )
 }
