@@ -6,7 +6,7 @@ export const MuiSwitch = () => {
     const [checked, setChecked] = useState(false)
 
     const handlechange = (event:ChangeEvent<HTMLInputElement>)=>{
-
+        setChecked(event.target.checked)
     }
   return (
     <Box>
