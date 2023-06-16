@@ -3,8 +3,8 @@ import { useState,ChangeEvent } from 'react';
 
 export const MuiRating = () => {
     const [value, setValue] = useState<number | null>(null)
-
-    const handlechange = ()=>{
+    
+    const handlechange = (event:ChangeEvent<{}>,newvalue:number | null)=>{
         
     }
   return (
