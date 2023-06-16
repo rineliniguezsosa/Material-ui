@@ -1,9 +1,9 @@
-import { MuiRating } from "./Components"
+import { MuiAutocomplete } from "./Components"
 
 function App() {
   return (
     <>
-      <MuiRating/>
+      <MuiAutocomplete/>
     </>
   )
 }
