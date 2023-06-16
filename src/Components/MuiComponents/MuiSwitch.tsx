@@ -4,7 +4,7 @@ import { useState,ChangeEvent } from 'react';
 
 export const MuiSwitch = () => {
     const [checked, setChecked] = useState(false)
-    
+
     console.log(checked)
 
     const handlechange = (event:ChangeEvent<HTMLInputElement>)=>{
@@ -12,7 +12,7 @@ export const MuiSwitch = () => {
     }
   return (
     <Box>
-        <FormControlLabel label="Dark mode" control={<Switch checked={checked} onChange={handlechange}/>}/>
+        <FormControlLabel label="Dark mode" control={<Switch size="small" color="success" checked={checked} onChange={handlechange}/>}/>
     </Box>
   )
 }
