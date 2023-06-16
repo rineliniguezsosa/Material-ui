@@ -5,8 +5,8 @@ import { useState,ChangeEvent } from 'react';
 export const MuiSwitch = () => {
     const [checked, setChecked] = useState(false)
 
-    const handlechange = ()=>{
-        
+    const handlechange = (event:ChangeEvent<HTMLInputElement>)=>{
+
     }
   return (
     <Box>
