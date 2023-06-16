@@ -3,6 +3,7 @@ import { useState,ChangeEvent } from 'react';
 
 
 export const MuiSwitch = () => {
+    const [checked, setChecked] = useState(false)
   return (
     <Box>
         <FormControlLabel label="Dark mode" control={<Switch/>}/>
