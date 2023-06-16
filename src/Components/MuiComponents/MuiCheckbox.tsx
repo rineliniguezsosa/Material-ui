@@ -12,7 +12,12 @@ export const MuiCheckbox = () => {
     }
 
     const handleskillchange = (event:ChangeEvent<HTMLInputElement>) =>{
-        setHabilidades([...habilidades,event.target.value])
+        const index = habilidades.indexOf(event.target.value)
+        if(index === -1){
+            setHabilidades([...habilidades,event.target.value])
+        }else{
+            setHabilidades(habilidades.filter(skills => skills !== event.target.value))
+        }
     }
   return (
     <Box>
