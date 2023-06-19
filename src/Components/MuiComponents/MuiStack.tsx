@@ -5,6 +5,7 @@ export const MuiStack = () => {
   return (
     <Stack 
     sx={{border:'1px solid'}}
+    p={2}
     direction="row"
     spacing={2}
     divider={<Divider flexItem orientation="vertical"/>}
