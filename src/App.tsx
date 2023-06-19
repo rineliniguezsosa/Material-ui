@@ -1,9 +1,9 @@
-import { MuiAutocomplete } from "./Components"
+import { MuiBox } from "./Components"
 
 function App() {
   return (
     <>
-      <MuiAutocomplete/>
+      <MuiBox/>
     </>
   )
 }
