@@ -1,6 +1,10 @@
 import { Stack,Autocomplete,TextField } from "@mui/material"
 import { useState } from 'react';
 
+type skill = {
+  id:number,
+  label:string
+}
 
 export const MuiAutocomplete = () => {
     const skills:string[] = ['HTML','Javascript','Typescript','React Formik','React Router']
