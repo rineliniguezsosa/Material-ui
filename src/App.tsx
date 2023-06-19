@@ -1,9 +1,9 @@
-import { MuiBox } from "./Components"
+import { MuiStack } from "./Components"
 
 function App() {
   return (
     <>
-      <MuiBox/>
+      <MuiStack/>
     </>
   )
 }
