@@ -9,7 +9,7 @@ export const MuiAutocomplete = () => {
 
     console.log(value)
     const handlechange = (event:any,newvalue:string | null) =>{
-      
+      setValue(newvalue)
     }
   return (
     <Stack spacing={2} width="250px">
