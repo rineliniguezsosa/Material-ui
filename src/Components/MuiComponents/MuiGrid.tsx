@@ -3,6 +3,10 @@ import { Grid,Box } from "@mui/material"
 
 export const MuiGrid = () => {
   return (
-    <div>MuiGrid</div>
+    <div>
+        <Grid container>
+            
+        </Grid> 
+    </div>
   )
 }
