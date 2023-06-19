@@ -1,7 +1,7 @@
 import { Stack,Autocomplete,TextField } from "@mui/material"
 import { useState } from 'react';
 
-type skill = {
+type Skill = {
   id:number,
   label:string
 }
