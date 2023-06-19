@@ -9,7 +9,9 @@ export const MuiStack = () => {
     spacing={2}
     divider={<Divider flexItem orientation="vertical"/>}
     >
+      <Box sx={{border:'1px solid',width:'100px',height:'100px'}}></Box>
 
+      <Box sx={{border:'1px solid',width:'100px',height:'100px'}}></Box>
     </Stack>
   )
 }
