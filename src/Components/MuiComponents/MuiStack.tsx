@@ -3,8 +3,13 @@ import { Box,Stack,Divider } from "@mui/material"
 
 export const MuiStack = () => {
   return (
-    <Stack>
-      
+    <Stack 
+    sx={{border:'1px solid'}}
+    direction="row"
+    spacing={2}
+    divider={<Divider flexItem orientation="vertical"/>}
+    >
+
     </Stack>
   )
 }
