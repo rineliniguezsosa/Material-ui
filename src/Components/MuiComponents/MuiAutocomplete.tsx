@@ -9,6 +9,11 @@ type skill = {
 export const MuiAutocomplete = () => {
     const skills:string[] = ['HTML','Javascript','Typescript','React Formik','React Router']
 
+    const skilloption = skills.map((skill,index)=> ({
+      id:index+1,
+      label:skill
+    }))
+
     const [value, setValue] = useState<string | null>(null)
 
     console.log(value)
