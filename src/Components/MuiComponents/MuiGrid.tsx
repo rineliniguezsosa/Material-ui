@@ -5,13 +5,13 @@ export const MuiGrid = () => {
   return (
     <div>
         <Grid container>
-            <Grid item>
+            <Grid item xs={6}>
                <Box>item 1</Box> 
             </Grid>
-            <Grid item>
+            <Grid item xs={6}>
                <Box>item 2</Box> 
             </Grid>
-            <Grid item>
+            <Grid item xs={6}>
                <Box>item 3</Box> 
             </Grid>
         </Grid> 
