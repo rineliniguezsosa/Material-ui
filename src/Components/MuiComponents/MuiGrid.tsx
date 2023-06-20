@@ -6,16 +6,16 @@ export const MuiGrid = () => {
     <div>
         <Grid container>
             <Grid item xs={6}>
-               <Box>item 1</Box> 
+               <Box bgcolor="primary.light">item 1</Box> 
             </Grid>
             <Grid item xs={6}>
-               <Box>item 2</Box> 
+               <Box bgcolor="primary.light">item 2</Box> 
             </Grid>
             <Grid item xs={6}>
-               <Box>item 3</Box> 
+               <Box bgcolor="primary.light">item 3</Box> 
             </Grid>
             <Grid item xs={6}>
-               <Box>item 4</Box> 
+               <Box bgcolor="primary.light">item 4</Box> 
             </Grid>
         </Grid> 
     </div>
