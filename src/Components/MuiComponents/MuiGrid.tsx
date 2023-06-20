@@ -14,6 +14,9 @@ export const MuiGrid = () => {
             <Grid item xs={6}>
                <Box>item 3</Box> 
             </Grid>
+            <Grid item xs={6}>
+               <Box>item 4</Box> 
+            </Grid>
         </Grid> 
     </div>
   )
