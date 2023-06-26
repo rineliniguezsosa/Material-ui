@@ -12,9 +12,9 @@ export const MuiNavbar = () => {
             <Typography variant="h6" component="div" sx={{flexGrow:1}}>Rinel</Typography>
 
             <Stack direction="row" spacing={2}>
-                <Button>Home</Button>
-                <Button>Login</Button>
-                <Button>Registrarse</Button>
+                <Button color="inherit">Home</Button>
+                <Button color="inherit">Login</Button>
+                <Button color="inherit">Registrarse</Button>
             </Stack>
         </Toolbar>
     </AppBar>
