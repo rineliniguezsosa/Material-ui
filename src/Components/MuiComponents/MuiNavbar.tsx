@@ -8,6 +8,8 @@ export const MuiNavbar = () => {
             <IconButton size="large" edge="start" color="inherit" aria-label="logo">
                 <AccountCircleIcon/>
             </IconButton>
+
+            <Typography variant="h6" component="div" sx={{flexGrow:1}}>Rinel</Typography>
         </Toolbar>
     </AppBar>
   )
