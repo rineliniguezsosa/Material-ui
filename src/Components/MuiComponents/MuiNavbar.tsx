@@ -10,6 +10,10 @@ export const MuiNavbar = () => {
             </IconButton>
 
             <Typography variant="h6" component="div" sx={{flexGrow:1}}>Rinel</Typography>
+
+            <Stack direction="row" spacing={2}>
+
+            </Stack>
         </Toolbar>
     </AppBar>
   )
