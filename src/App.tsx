@@ -1,9 +1,9 @@
-import { MuiGrid } from "./Components"
+import { Muinavbar } from "./Components"
 
 function App() {
   return (
     <>
-      <MuiGrid/>
+      <Muinavbar/>
     </>
   )
 }
