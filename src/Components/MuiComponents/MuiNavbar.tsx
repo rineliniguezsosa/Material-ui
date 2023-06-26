@@ -3,7 +3,9 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 export const MuiNavbar = () => {
   return (
-    <div>MuiNavbar</div>
+    <AppBar position="static">
+
+    </AppBar>
   )
 }
 
