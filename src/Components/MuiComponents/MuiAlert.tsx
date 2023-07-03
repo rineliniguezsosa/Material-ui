@@ -8,6 +8,10 @@ export const MuiAlert = () => {
         <Alert variant="outlined" severity='success'>Alert</Alert>
 
         <Alert variant="filled" severity='success'>Alert</Alert>
+
+        <Alert variant="filled" severity="error">
+          This is the error
+        </Alert>
     </Stack>
   )
 }
