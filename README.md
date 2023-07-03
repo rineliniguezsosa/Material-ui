@@ -23,3 +23,7 @@ https://github.com/rineliniguezsosa/Material-ui.git
 ```
 
 1. Navega al directorio del proyecto:
+
+```shell
+cd Material-ui
+```
