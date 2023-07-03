@@ -11,6 +11,7 @@ export const MuiAlert = () => {
 
         <Alert variant="filled" severity="error">
           This is the error
+          <AlertTitle>Error</AlertTitle>
         </Alert>
     </Stack>
   )
