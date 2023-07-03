@@ -1,9 +1,9 @@
-import { MuiAlert } from "./Components"
+import { MuiSnackbar } from "./Components"
 
 function App() {
   return (
     <>
-      <MuiAlert/>
+      <MuiSnackbar/>
     </>
   )
 }
