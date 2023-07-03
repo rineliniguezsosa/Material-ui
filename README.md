@@ -7,7 +7,7 @@
 
 Material-UI es una biblioteca de componentes de interfaz de usuario (UI) de código abierto que se utiliza para crear interfaces modernas y visualmente atractivas en aplicaciones web.
 
-## Requisitos previos del lado del cliente
+## Requisitos previos
 
 Asegúrate de tener instalado lo siguiente en tu máquina:
 
