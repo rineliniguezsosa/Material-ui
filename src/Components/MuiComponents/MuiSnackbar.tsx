@@ -3,6 +3,10 @@ import { useState } from 'react';
 
 export const MuiSnackbar = () => {
     const [open, setOpen] = useState(false)
+
+    const handleclose = () =>{
+        
+    }
   return (
     <>
         <Button>Submit</Button>
