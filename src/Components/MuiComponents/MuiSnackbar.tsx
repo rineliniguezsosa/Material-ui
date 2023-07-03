@@ -1,11 +1,11 @@
 import { Snackbar,Button } from '@mui/material'
-import { useState } from 'react';
+import { useState,SyntheticEvent } from 'react';
 
 export const MuiSnackbar = () => {
     const [open, setOpen] = useState(false)
 
     const handleclose = () =>{
-        
+
     }
   return (
     <>
