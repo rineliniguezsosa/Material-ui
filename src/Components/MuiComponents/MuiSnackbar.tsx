@@ -4,7 +4,7 @@ import { useState,SyntheticEvent } from 'react';
 export const MuiSnackbar = () => {
     const [open, setOpen] = useState(false)
 
-    const handleclose = () =>{
+    const handleclose = (event: SyntheticEvent | Event, reason?: string) =>{
 
     }
   return (
