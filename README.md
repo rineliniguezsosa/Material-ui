@@ -10,3 +10,6 @@ Material-UI es una biblioteca de componentes de interfaz de usuario (UI) de cód
 ## Requisitos previos del lado del cliente
 
 Asegúrate de tener instalado lo siguiente en tu máquina:
+
+- Node.js (versión >=14.18.0)
+- npm (versión >=8.0.0)
