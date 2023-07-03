@@ -29,3 +29,7 @@ cd Material-ui
 ```
 
 1. Instala las dependencias del proyecto:
+
+```shell
+npm install
+```
