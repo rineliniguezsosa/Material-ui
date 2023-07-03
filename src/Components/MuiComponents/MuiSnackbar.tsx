@@ -12,7 +12,7 @@ export const MuiSnackbar = () => {
     }
   return (
     <>
-        <Button>Submit</Button>
+        <Button onClick={()=> setOpen(true)}>Submit</Button>
         <Snackbar
             message="Rinel say Hellow"
             open={open}
