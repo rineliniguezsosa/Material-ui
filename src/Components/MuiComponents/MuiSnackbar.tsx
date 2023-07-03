@@ -5,7 +5,9 @@ export const MuiSnackbar = () => {
     const [open, setOpen] = useState(false)
 
     const handleclose = (event: SyntheticEvent | Event, reason?: string) =>{
-
+        if(reason === 'clickaway'){
+            return
+        }
     }
   return (
     <>
