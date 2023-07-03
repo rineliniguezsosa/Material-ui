@@ -8,6 +8,7 @@ export const MuiSnackbar = () => {
         if(reason === 'clickaway'){
             return
         }
+        setOpen(false)
     }
   return (
     <>
