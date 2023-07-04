@@ -1,9 +1,9 @@
-import { MuiPaper } from "./Components"
+import { MuiCard } from "./Components"
 
 function App() {
   return (
     <>
-      <MuiPaper/>
+      <MuiCard/>
     </>
   )
 }
