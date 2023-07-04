@@ -25,6 +25,10 @@ export const MuiSnackbar = () => {
             autoHideDuration={2000}
             onClose={handleclose}
         />
+
+        <Snackbar open={open} autoHideDuration={4000} onClose={handleclose}>
+
+        </Snackbar>
     </>
   )
 }
