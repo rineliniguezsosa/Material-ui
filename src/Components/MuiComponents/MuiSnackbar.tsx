@@ -27,7 +27,9 @@ export const MuiSnackbar = () => {
         />
 
         <Snackbar open={open} autoHideDuration={4000} onClose={handleclose}>
-
+            <SnackbarAlert onClose={handleclose} variant='filled' severity="success">
+                Rinel say hellow!
+            </SnackbarAlert>
         </Snackbar>
     </>
   )
