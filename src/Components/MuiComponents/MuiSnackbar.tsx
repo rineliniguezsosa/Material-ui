@@ -1,4 +1,4 @@
-import { Snackbar,Button } from '@mui/material'
+import { Snackbar,Button,Alert,AlertProps } from '@mui/material'
 import { useState,SyntheticEvent } from 'react';
 
 export const MuiSnackbar = () => {
