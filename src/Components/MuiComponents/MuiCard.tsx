@@ -4,7 +4,9 @@ export const MuiCard = () => {
   return (
     <Box width="300px">
         <Card>
-          
+            <CardContent>
+              
+            </CardContent>
         </Card>
     </Box>
   )
