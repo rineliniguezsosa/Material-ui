@@ -10,6 +10,12 @@ export const MuiSnackbar = () => {
         }
         setOpen(false)
     }
+
+    const SnackbarAlert = forwardRef<HTMLDivElement,AlertProps>(
+        function SnackbarAlert(props,ref){
+            return <Alert variant="filled" elevation={6} ref={ref} {...props}/> 
+        }
+    )
   return (
     <>
         <Button onClick={()=> setOpen(true)}>Submit</Button>
