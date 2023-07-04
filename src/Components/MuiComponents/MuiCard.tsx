@@ -5,7 +5,7 @@ export const MuiCard = () => {
     <Box width="300px">
         <Card>
             <CardContent>
-              
+              <Typography gutterBottom variant="h5" component="div">React</Typography>
             </CardContent>
         </Card>
     </Box>
