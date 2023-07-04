@@ -1,5 +1,5 @@
 import { Snackbar,Button,Alert,AlertProps } from '@mui/material'
-import { useState,SyntheticEvent } from 'react';
+import { useState,SyntheticEvent,forwardRef } from 'react';
 
 export const MuiSnackbar = () => {
     const [open, setOpen] = useState(false)
