@@ -12,7 +12,7 @@ export const MuiCard = () => {
               </Typography>
             </CardContent>
             <CardActions>
-              
+              <Button size="small">Share</Button>
             </CardActions>
         </Card>
     </Box>
