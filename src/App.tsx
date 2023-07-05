@@ -1,9 +1,9 @@
-import { MuiCard } from "./Components"
+import { MuiLink } from "./Components"
 
 function App() {
   return (
     <>
-      <MuiCard/>
+      <MuiLink/>
     </>
   )
 }
