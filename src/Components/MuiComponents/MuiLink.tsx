@@ -6,7 +6,7 @@ export const MuiLink = () => {
         <Link href="#" variant="body2" underline='none'>Home</Link>
 
         <Typography variant="h6">
-
+            <Link href="#" color="inherit" underline='none'>Account</Link>
         </Typography>
     </Stack>
   )
