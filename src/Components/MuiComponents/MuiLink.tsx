@@ -4,6 +4,10 @@ export const MuiLink = () => {
   return (
     <Stack spacing={2} direction="row" m={4}>
         <Link href="#" variant="body2" underline='none'>Home</Link>
+
+        <Typography variant="h6">
+
+        </Typography>
     </Stack>
   )
 }
