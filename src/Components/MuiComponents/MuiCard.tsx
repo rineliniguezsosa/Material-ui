@@ -1,4 +1,4 @@
-import { Box,Typography,Card,CardContent,CardActions,Button } from "@mui/material"
+import { Box,Typography,Card,CardContent,CardActions,Button,CardMedia } from "@mui/material"
 
 export const MuiCard = () => {
   return (
