@@ -2,7 +2,7 @@ import { Box,Typography,Card,CardContent,CardActions,Button,CardMedia } from "@m
 
 export const MuiCard = () => {
   return (
-    <Box width="300px">
+    <Box sx={{display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center'}} width="300px">
         <Card>
             <CardMedia
              sx={{height:'100'}}
