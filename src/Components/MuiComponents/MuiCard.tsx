@@ -11,6 +11,9 @@ export const MuiCard = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin molestie egestas dui, in commodo nisi aliquet eget. Nunc sit amet lorem eget 
               </Typography>
             </CardContent>
+            <CardActions>
+              
+            </CardActions>
         </Card>
     </Box>
   )
