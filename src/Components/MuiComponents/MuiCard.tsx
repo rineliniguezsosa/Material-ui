@@ -4,6 +4,13 @@ export const MuiCard = () => {
   return (
     <Box width="300px">
         <Card>
+            <CardMedia
+             sx={{height:'100'}}
+             component="img"
+             image="https://www.datocms-assets.com/45470/1631110818-logo-react-js.png"
+             alt="Reactjs"
+            />
+
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">React</Typography>
 
