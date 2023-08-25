@@ -32,6 +32,13 @@ export const MuiSnackbar = () => {
                 Rinel say hellow!
             </SnackbarAlert>
         </Snackbar>
+
+        <p>2da forma opara establecer un snackbar customizado</p>
+        <Snackbar open={open} autoHideDuration={4000} onClose={handleclose}>
+            <MuiAlert onClose={handleclose} variant='filled' severity="success">
+                Rinel say hellow!
+            </MuiAlert>
+        </Snackbar>
     </>
   )
 }
